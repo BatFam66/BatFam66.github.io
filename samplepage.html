@@ -9,6 +9,7 @@
     <!--Jaime: Added a css file for my css changes-->
     <!--Bastien: Added CSS style within the head tag, changed background color-->
     <!--Bastien: Modified all p tags to be bold-->
+
     <style>
         body {
             background-color: lightgray
@@ -183,6 +184,12 @@
         </div>
     </div>
 
+    <!--Bastien: Followed example to display date and time when a button is pressed-->
+    <button type="button"
+    onclick="document.getElementById('dateTime').innerHTML = Date()">
+    Date and Time.</button>
+
+    <p id="dateTime"></p>
 </body>
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
