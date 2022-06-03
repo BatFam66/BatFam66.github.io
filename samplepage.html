@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <title>team HTML page</title>
+    <link rel="stylesheet" href="Ourcssfile.css">
+    <!--Jaime: Added a css file for my css changes-->
+    <!--Bastien: Added CSS style within the head tag, changed background color-->
+    <!--Bastien: Modified all p tags to be bold-->
+    <style>
+        body {
+            background-color: lightgray
+        }
+
+        p {
+            font-weight: bold
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Bastien: Added Nav bar (code pulled from BootStrap website) -->
+    <!--Jaime:Added a scrollspy navbar instead, changed list of characters to grid and inserted cards along with images.-->
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#theme">Theme</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#reason">Reason</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#favorite">Favorite</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#img">Images</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Jaime: This my favorite color :)!-->
+    <h1 style="color:aquamarine;">This is our team HTML page</h1>
+    <h2 id="theme">The Theme for the page is our favorite video games</h2>
+    <ul>
+        <li>Jaime-<span style="color: red;font-weight: bold;">"Pokemon(Pearl)"</span></li>
+        <!--Bastien: Added list tag with name and favorite game with text modifiers-->
+        <li>Bastien-<span style="color: blue; font-weight: lighter;">"Minecraft"</span></li>
+        <li>Eric-<span style="color: purple; font-weight: bolder;">"Call of Duty Mobile"</span></li>
+        <li>Jase-<span style="color: orange; font-weight: bolder;">"Destiny 2"</span></li>
+        <!--Jase: added in game title-->
+    </ul>
+    <h3 id="reason">Reasoning for our choice</h3>
+    <table border="2" width="500">
+        <tr>
+            <td width="25%">Jaime</td>
+            <td width="25%">Bastien</td>
+            <td width="25%">Eric</td>
+            <td width="25%">Jase</td>
+        </tr>
+        <tr>
+            <td colspan="1">The reason this is my favorite video game is because it was the first video game I owned.
+            </td>
+            <!--Bastien: Defined cell in the table with text-->
+            <td colspan="1">I picked this as my favorite game since I like to build and roam around.</td>
+            <td colspan="1">I love playing FPS games on mobile and CODM is my favorite. I usually play with my friends
+                and we are pretty good at Search and Destroy.</td>
+            <td colspan="1">I like this game due to the exploration and style of the game, as well as the genre.</td>
+        </tr>
+    </table>
+    <h3 id="favorite">Favorite characters</h3>
+    <ul>
+        <li><strong>- Jaime</strong>
+            <div class="container">
+                <div class="row">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.mobygames.com/images/promo/original/1473451133-2768577942.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Piplup</h5>
+                            <p class="card-text"> Prefers cold climes and appears along coasts. It’s an adorable little
+                                thing—as cute as any child—but it’s also prideful, unwilling to accept handouts from
+                                people.</p>
+                            <a href="https://www.mobygames.com/images/promo/original/1473451133-2768577942.jpg"
+                                class="btn btn-primary">View Image</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i0.wp.com/thegamehaus.com/wp-content/uploads/2021/07/pokemon-anime-pikachu-wound-apr182020.jpeg?fit=1500%2C844&ssl=1"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pikachu</h5>
+                            <p class="card-text"> Possesses cheek sacs in which it stores electricity. This clever
+                                forest-dweller roasts tough berries with an electric shock before consuming them.</p>
+                            <a href="https://i0.wp.com/thegamehaus.com/wp-content/uploads/2021/07/pokemon-anime-pikachu-wound-apr182020.jpeg?fit=1500%2C844&ssl=1"
+                                class="btn btn-primary">View Image</a>
+                        </div>
+                        <div class="col-sm">
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://pbs.twimg.com/media/D3zxW3qV4AAa8mX.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Gible</h5>
+                            <p id="Gible" class="card-text">It nests in caves untouched by sunlight. Its sharp teeth may
+                                fall out when worn away or after an impact, but they regrow within a few days.</p>
+                            <a href="https://pbs.twimg.com/media/D3zxW3qV4AAa8mX.jpg" class="btn btn-primary">View
+                                Image</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--Mark's comment 5/15: missing a closing </li> here.-->
+
+            <!--Bastien: Added section for my favorite characters using the list, ordered list and paragraph tags-->
+        <li><strong> - Bastien </strong></li>
+        <ol>
+            <li><em>Steve</em></li>
+            <li><em>Creeper</em></li>
+            <!--Bastien: Modified the font weight to be bold using CSS-->
+            <p style="font-weight:bold">
+                <span style="color: green">The creeper is a hostile mob known to blow up upon contact.</span>
+            </p>
+        </ol>
+
+        <li><strong>- Eric</strong></li>
+        <ol>
+            <li><em>Manta Ray</em></li>
+            <li><em>Ghost</em></li>
+            <!--Eric:Emphasized the name of the character by using emphasis tag-->
+            <p>
+                <span style="color:rgb(188, 44, 111)">I got this character by winning the World Championship
+                    Event.</span>
+            </p>
+        </ol>
+
+        <li><strong> - Jase </strong></li>
+        <ol>
+            <li><em>Hunter</em></li>
+            <li><em>Warlock</em></li>
+
+            <p>
+                <span style="color: blue">I mostly play the Hunter class since it is my favorite, but in PvP they lowkey
+                    suck(or maybe I do at playing PvP)</span>
+            </p>
+            <!--Jase:I added in my favorite characters to outline my game knowledge-->
+        </ol>
+
+    </ul>
+
+    <div class="imgs">
+        <h4 id="img">Favorite image from the game</h4>
+        <img src="https://www.mobygames.com/images/promo/original/1473451133-2768577942.jpg" width="500" alt="pengu"
+            title="piplup :)">
+        <div class="center">
+            <a href="https://www.mobygames.com/images/promo/original/1473451133-2768577942.jpg">Piplup</a>
+        </div>
+        <!--Bastien: Added images and links using src link and hypertext reference-->
+        <img src="https://staticg.sportskeeda.com/editor/2022/02/c9395-16443164002278-1920.jpg" width="500"
+            title="nether">
+        <div class="center">
+            <a href="https://staticg.sportskeeda.com/editor/2022/02/c9395-16443164002278-1920.jpg">Nether</a>
+        </div>
+
+        <img src="https://www.gamespot.com/a/uploads/original/1639/16394540/3956945-codm-s3-announcement-tout.jpg"
+            width="500" alt="CODM in Season 3" title="PewPewPew">
+        <!--Added title attribute to insert the message i want to say that show up on mouse hover-->
+        <div class="center">
+            <a
+                href="https://www.gamespot.com/a/uploads/original/1639/16394540/3956945-codm-s3-announcement-tout.jpg">Miami</a>
+        </div>
+
+        <div class="center">
+            <a
+                href="https://cdn.vox-cdn.com/thumbor/tS_B9YWp9OdUAiXt6qENT3zH42Q=/0x0:1541x1016/1820x1213/filters:focal(623x367:869x613):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70622735/Destiny_2_Witch_Queen.0.png">Witch</a>
+
+            <img src="https://cdn.vox-cdn.com/thumbor/tS_B9YWp9OdUAiXt6qENT3zH42Q=/0x0:1541x1016/1820x1213/filters:focal(623x367:869x613):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70622735/Destiny_2_Witch_Queen.0.png"
+                width="500" title="Witch">
+
+            <!--Jase: I finally got my image on the site-->
+        </div>
+    </div>
+
+</body>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
