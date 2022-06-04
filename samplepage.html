@@ -190,8 +190,40 @@
     Date and Time.</button>
 
     <p id="dateTime"></p>
+
+    <p>
+        Click the function button to test the function made below.
+    </p>
+    <!--Made two different functions, one just to print an alert in a separate window and one that does a loop with condition-->
+    <input type = "button" onclick = "testFunc()" value = "Function Button"> 
+    <input type = "button" onclick = "loopFunc()" value = "Loop Button"> 
 </body>
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    let varWithVal = "bastien's tester variable";
+    document.write(varWithVal);
+</script>
+<pre id = "fruitArr"></pre>
+<script>
+    document.write([{fruit: "apple"}, {fruit: "pear"}, {fruit: "banana"}]);
+</script>
 
+<script type = "text/javascript">
+    function testFunc() {
+        alert("Hello!");
+    }
+</script>
+
+<script> 
+    function loopFunc() {
+        for(let i = 0; i < 10; i++) {
+            if (i % 2 == 0) {
+                document.write("Even");
+            } else {
+                document.write("odd");
+            }
+        }
+    }
+</script>
 </html>
