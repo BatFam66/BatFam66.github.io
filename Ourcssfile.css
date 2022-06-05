@@ -55,3 +55,14 @@ img {
     height: 15vw;
     object-fit: cover;
 }
+.footer{
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+}
+button{
+  padding: 10px;
+  border-radius: 10%;
+  margin-bottom: 20px;
+   
+}
